@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="input">
+            <h1>Is it a Palindrome?</h1>
+            <div class="Inputfield" id="inputfield">
+                <form id="InputPal" onsubmit="checkPalindrome(event)">
+                    <label for="text-input">
+                        <input type="text" id="text-input" placeholder="Input A Palindrome(eg. Deed)">
+                        <button type="submit" id="check-btn">Check Palindrome</button>
+                        <p id="result"></p>
+                    </label>
+                </form>    
+            </div>    
+        </div>  
+        <div id="text">
+            <p>A palindrome is a word or phrase that can be read the same way forwards and backwards, ignoring punctuation, case, and spacing.</p> 
+        </div>  
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
